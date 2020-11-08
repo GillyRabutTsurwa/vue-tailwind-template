@@ -1,8 +1,8 @@
 <template>
   <div class="w-full h-full">
     <img src="../assets/logo.png" alt="Vue logo" class="w-24 h-24 fixed">
-    <h1 class="text-3xl text-green-700 font-extrabold">{{ msg }}</h1>
-    <p class="text-vuegreen">Success! Remove these styles, Add your own and bon coding.</p>
+    <h1 class="text-red-500 text-3xl">Yo from Tailwing</h1>
+    <h2 class="text-vuegreen semibold uppercase">HAH! Tailwing, I meant Tailwind</h2>
   </div>
 </template>
 
@@ -10,12 +10,11 @@
 export default {
   name: "HelloWorld",
   props: {
-    msg: String
-  }
+    msg: String,
+  },
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h3 {
   margin: 40px 0 0;
