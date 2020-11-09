@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1 class="text-red-500 text-6xl uppercase">{{ msg }}</h1>
+    <p class="text-blue-600">Tailwind installation, configuration and implementation, success</p>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -32,11 +33,11 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: "HelloWorld",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
